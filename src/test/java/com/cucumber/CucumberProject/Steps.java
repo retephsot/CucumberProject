@@ -129,5 +129,25 @@ public class Steps {
 		Thread.sleep(2000);
 		
 	}
+	
+	@SuppressWarnings("deprecation")
+	@Then("^There should be a confirmation text$")
+	public void verifyConfirmTextAvilable() throws Throwable {
+		String expectedConfirm = "YOUR ADOPTION HAS BEEN SET UP";
+		System.out.println("running verify confirm message method");
+		String confirmMessage = driver.findElement(By.cssSelector("table tr:nth-child(2n) td:nth-child(2n) p")).getText();
+		
+		//assert
+		Assert.assertEquals("1st assert failed.", expectedConfirm, confirmMessage);
+		System.out.println("Hard Assertion -> 1st pagetext assertion executed.");
+		
+		//setting it up to fail to see fail message in report
+		Assert.assertEquals("2nd assert failed.", expectedConfirm, "fail");
+		System.out.println("Hard Assertion -> 2nd pagetext assertion executed.");
+		
+		//wait 2 seconds
+		Thread.sleep(2000);
+		
+	}
 
 }

@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 3484745168,
+  "duration": 3623661882,
   "status": "passed"
 });
 formatter.scenario({
@@ -47,39 +47,39 @@ formatter.match({
   "location": "Steps.shouldNavigateToZooSite()"
 });
 formatter.result({
-  "duration": 3682523470,
+  "duration": 3142980947,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.navigateToAdoption()"
 });
 formatter.result({
-  "duration": 2152993739,
+  "duration": 1037654092,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.checkAvailableAnimal()"
 });
 formatter.result({
-  "duration": 2460017390,
+  "duration": 871692987,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.populateForm()"
 });
 formatter.result({
-  "duration": 5573411542,
+  "duration": 5071581406,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.verifyConfirmMessageAvilable()"
 });
 formatter.result({
-  "duration": 2077442522,
+  "duration": 2089360577,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1131068228,
+  "duration": 1079830156,
   "status": "passed"
 });
 });
