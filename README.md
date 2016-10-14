@@ -2,7 +2,7 @@
 Creating sample cucumber tests using java and maven
 
 Add the following dependencies in your pom.xml
-<dependencies>
+"<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -32,11 +32,11 @@ Add the following dependencies in your pom.xml
 			<artifactId>selenium-java</artifactId>
 			<version>3.0.0</version>
 		</dependency>
-	</dependencies>
+	</dependencies>"
   
 Set the @CucumberOptions with the following:
 
-@CucumberOptions(
+"@CucumberOptions(
 		format = {"pretty", "html:target/html/"},
 		features = "src/test/resource"
-		)
+		)"
