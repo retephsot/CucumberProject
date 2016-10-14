@@ -7,7 +7,8 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		format = {"pretty", "html:target/html/"},
+		// use "html:target/html/" or "json:target/json/output.json"
+		format = {"pretty", "json:target/json/output.json"},
 		features = "src/test/resource"
 		)
 public class runnerTest {
