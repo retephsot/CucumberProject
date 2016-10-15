@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 1959632265,
+              "duration": 1984114166,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 1074001152,
+              "duration": 126472106,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4297375364,
+              "duration": 2653708043,
               "status": "passed"
             },
             "line": 4,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 1311775493,
+              "duration": 651888167,
               "status": "passed"
             },
             "line": 5,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 1499645508,
+              "duration": 452584096,
               "status": "passed"
             },
             "line": 6,
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 5373987892,
+              "duration": 5364754682,
               "status": "passed"
             },
             "line": 7,
@@ -82,7 +82,7 @@
           },
           {
             "result": {
-              "duration": 2075195792,
+              "duration": 2070795741,
               "status": "passed"
             },
             "line": 8,
@@ -98,7 +98,7 @@
         "before": [
           {
             "result": {
-              "duration": 1135462282,
+              "duration": 1173337286,
               "status": "passed"
             },
             "match": {
@@ -113,7 +113,7 @@
         "after": [
           {
             "result": {
-              "duration": 1312161390,
+              "duration": 1313005849,
               "status": "passed"
             },
             "match": {
@@ -126,7 +126,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3203619142,
+              "duration": 4952712797,
               "status": "passed"
             },
             "line": 11,
@@ -138,7 +138,7 @@
           },
           {
             "result": {
-              "duration": 1353815724,
+              "duration": 1487521353,
               "status": "passed"
             },
             "line": 12,
@@ -150,7 +150,7 @@
           },
           {
             "result": {
-              "duration": 1264135235,
+              "duration": 2488416717,
               "status": "passed"
             },
             "line": 13,
@@ -162,7 +162,7 @@
           },
           {
             "result": {
-              "duration": 5313758349,
+              "duration": 5516295336,
               "status": "passed"
             },
             "line": 14,
@@ -174,7 +174,7 @@
           },
           {
             "result": {
-              "duration": 80715766,
+              "duration": 69601512,
               "error_message": "junit.framework.ComparisonFailure: 2nd assert failed. expected:\u003c[YOUR ADOPTION HAS BEEN SET UP]\u003e but was:\u003c[fail]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat com.cucumber.CucumberProject.Steps.verifyConfirmTextAvilable(Steps.java:146)\r\n\tat ✽.Then There should be a confirmation text(myFeature.feature:15)\r\n",
               "status": "failed"
             },
