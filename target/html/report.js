@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 4003081017,
+  "duration": 6988775314,
   "status": "passed"
 });
 formatter.scenario({
@@ -47,43 +47,43 @@ formatter.match({
   "location": "Steps.shouldNavigateToZooSite()"
 });
 formatter.result({
-  "duration": 3849104063,
+  "duration": 1212194684,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.navigateToAdoption()"
 });
 formatter.result({
-  "duration": 1855119948,
+  "duration": 1015849707,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.checkAvailableAnimal()"
 });
 formatter.result({
-  "duration": 972896492,
+  "duration": 1968882306,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.populateForm()"
 });
 formatter.result({
-  "duration": 5278330577,
+  "duration": 5242504457,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.verifyConfirmMessageAvilable()"
 });
 formatter.result({
-  "duration": 2075322142,
+  "duration": 2060734904,
   "status": "passed"
 });
 formatter.after({
-  "duration": 223168673,
+  "duration": 26529210,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2452378685,
+  "duration": 6178580152,
   "status": "passed"
 });
 formatter.scenario({
@@ -123,40 +123,40 @@ formatter.match({
   "location": "Steps.shouldNavigateToZooSite()"
 });
 formatter.result({
-  "duration": 3005301155,
+  "duration": 1117741794,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.navigateToAdoption()"
 });
 formatter.result({
-  "duration": 636132509,
+  "duration": 252431462,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.checkAvailableAnimal()"
 });
 formatter.result({
-  "duration": 412058620,
+  "duration": 2995777298,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.populateForm()"
 });
 formatter.result({
-  "duration": 5399844163,
+  "duration": 5882736061,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.verifyConfirmTextAvilable()"
 });
 formatter.result({
-  "duration": 71010770,
-  "error_message": "junit.framework.ComparisonFailure: 2nd assert failed. expected:\u003c[YOUR ADOPTION HAS BEEN SET UP]\u003e but was:\u003c[fail]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat com.cucumber.CucumberProject.Steps.verifyConfirmTextAvilable(Steps.java:145)\r\n\tat ✽.Then There should be a confirmation text(myFeature.feature:15)\r\n",
+  "duration": 60996412,
+  "error_message": "junit.framework.ComparisonFailure: 2nd assert failed. expected:\u003c[YOUR ADOPTION HAS BEEN SET UP]\u003e but was:\u003c[fail]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat com.cucumber.CucumberProject.Steps.verifyConfirmTextAvilable(Steps.java:177)\r\n\tat ✽.Then There should be a confirmation text(myFeature.feature:15)\r\n",
   "status": "failed"
 });
 formatter.after({
-  "duration": 136949871,
+  "duration": 10393775,
   "status": "passed"
 });
 });
