@@ -30,7 +30,7 @@ Add the following dependencies in your pom.xml
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>3.0.0</version>
+			<version>2.53.0</version>
 		</dependency>
 	</dependencies>"
   
