@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: com.cucumber.CucumberProject.runnerTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.604 sec
+Tests run: 12, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 36.846 sec <<< FAILURE!
+Then There should be a confirmation text(Scenario: Adopt an available animal)  Time elapsed: 0.003 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 2nd assert failed. expected:<[YOUR ADOPTION HAS BEEN SET UP]> but was:<[fail]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at com.cucumber.CucumberProject.Steps.verifyConfirmTextAvilable(Steps.java:177)
+	at ?.Then There should be a confirmation text(myFeature.feature:15)
+
+Scenario: Adopt an available animal  Time elapsed: 0.004 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 2nd assert failed. expected:<[YOUR ADOPTION HAS BEEN SET UP]> but was:<[fail]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at com.cucumber.CucumberProject.Steps.verifyConfirmTextAvilable(Steps.java:177)
+	at ?.Then There should be a confirmation text(myFeature.feature:15)
+
