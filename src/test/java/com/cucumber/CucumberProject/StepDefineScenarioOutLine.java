@@ -22,37 +22,7 @@ public class StepDefineScenarioOutLine {
 		driver.navigate().to("http://www.thetestroom.com/webapp/");
 
 	}
-	/*
-	@When("^I click on Adoption$")
-	public void clickAdoptionLink() throws Throwable {
-		driver.findElement(By.id("adoption_link")).click();
-	}
 
-	@Then("^I check I am on Adoption$")
-	public void verifyAdoptionTitle() throws Throwable {
-		Assert.assertTrue(driver.getTitle().contains("Adoption"));
-	}
-
-	@When("^I click on About$")
-	public void clickAboutLink() throws Throwable {
-		driver.findElement(By.id("about_link")).click();
-	}
-
-	@Then("^I check I am on About Zoo$")
-	public void verifyZooTitle() throws Throwable {
-		Assert.assertTrue(driver.getTitle().contains("About"));
-	}
-
-	@When("^I click on Contact$")
-	public void clickContactLink() throws Throwable {
-		driver.findElement(By.id("contact_link")).click();
-	}
-
-	@Then("^I check I am on Contact$")
-	public void verifyContactTitle() throws Throwable {
-		Assert.assertTrue(driver.getTitle().contains("Contact"));
-	}
-	*/
 	@And("^I close browser$")
 	public void closeBrowser() throws Throwable {
 		driver.close();

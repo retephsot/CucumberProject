@@ -9,6 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -24,9 +25,11 @@ import junit.framework.Assert;
 
 public class Steps {
 
-	// WebDriver driver = null;
-	protected WebDriver driver;
-	// need to make Properties testConfig member variable below like this
+	WebDriver driver;
+	 
+		 
+	//protected WebDriver driver;
+/*	// need to make Properties testConfig member variable below like this
 	protected Properties testConfig;
 	public String baseUrl;
 
@@ -46,7 +49,7 @@ public class Steps {
 		 * System.setProperty("webdriver.chrome.driver",
 		 * "C:\\SeleniumJars\\chromedriver_win32\\chromedriver.exe"); driver =
 		 * new ChromeDriver();
-		 */
+		 
 
 		testConfig = new Properties();
 		testConfig.load(new FileInputStream("TestConfig.properties"));
@@ -60,10 +63,10 @@ public class Steps {
 	public void tearDown() {
 		System.out.println("executing after method");
 		driver.close();
-	}
+	}  */
 
 	// additional before hook
-	@Before("@web")
+/*	@Before("@web")
 	public void testSetUpWeb() {
 
 		System.out.println("executing before method with web tag");
@@ -107,14 +110,14 @@ public class Steps {
 		// driver.navigate().to("http://www.thetestroom.com/webapp/");
 		driver.get(baseUrl);
 
-	}
+	}  */
 
-	@When("^I navigate to adoption$")
+/*	@When("^I navigate to adoption$")
 	public void navigateToAdoption() throws Throwable {
 		driver.findElement(By.id("adoption_link")).click();
-	}
+	} */
 
-	@When("^I check for an available animal$")
+/*	@When("^I check for an available animal$")
 	public void checkAvailableAnimal() throws Throwable {
 		System.out.println("Running check avail animal method");
 		//wait until check button is available
@@ -124,9 +127,9 @@ public class Steps {
 		Thread.sleep(1000);
 		
 		driver.findElement(By.id("check_btn_02")).click();
-	}
+	}  */
 
-	@And("^I populate the form$")
+/*	@And("^I populate the form$")
 	public void populateForm() throws Throwable {
 		System.out.println("Running populate form method");
 		
@@ -159,7 +162,7 @@ public class Steps {
 		// wait 2 seconds
 		Thread.sleep(2000);
 
-	}
+	} */
 
 	@SuppressWarnings("deprecation")
 	@Then("^There should be a confirmation text$")

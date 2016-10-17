@@ -24,7 +24,7 @@ public class StepDefinitionsThird {
 		driver.navigate().to("http://www.thetestroom.com/webapp/");
 	}
 
-	@When("^I click on the contact link$")
+	@When("^I click the contact link$")
 	public void shouldClickOnContactLink() throws Throwable {
 		driver.findElement(By.id("contact_link")).click();
 	}

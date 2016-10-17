@@ -1,6 +1,6 @@
 Feature: Adopt an animal Scenario Hooks
 
-@web
+  @web
   Scenario: Adopt an available animal
     Given I am at the zoo site
     When I navigate to adoption
