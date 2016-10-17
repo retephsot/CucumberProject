@@ -9,9 +9,10 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		// use "html:target/html/" or "json:target/json/output.json"
 		format = {"pretty", "json:target/json/output.json", "html:target/html/"},
-		features = "src/test/resource",
-		tags = {"@Application"}
+		features = "src/test/resource"//,
+		//to specify which test tags to run
+		//tags = {"@Web, @Application"}
 		)
-public class runnerTest {
+public class WebRunnerTest {
 
 }

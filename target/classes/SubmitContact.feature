@@ -1,5 +1,6 @@
 Feature: Submit a valid contact form use dataTable
 
+	@Application
   Scenario: Submit form using valid data
     Given I am on the zoo site
     When I navigate to contact
