@@ -23,10 +23,16 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import junit.framework.Assert;
 
-public class Steps {
+//extends AbstractPageStepDefinition
+public class Steps extends AbstractPageStepDefinition{
 
 	WebDriver driver;
-	 
+	
+	
+	/*public Steps (WebDriver driver)
+	{
+		super(driver);
+	}*
 		 
 	//protected WebDriver driver;
 /*	// need to make Properties testConfig member variable below like this
