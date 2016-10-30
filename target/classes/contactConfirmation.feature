@@ -1,5 +1,6 @@
 Feature: To test contact form works when there are no errors
 
+	@TestRoom
   Scenario: Check form is validated when there are no errors
     Given I am on my zoo website
     When I click the contact link

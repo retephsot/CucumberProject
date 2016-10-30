@@ -1,5 +1,6 @@
 Feature: Test Page Heading Scenario Outline
 
+	@TestRoom
   Scenario Outline: Test Contact Page Heading
     Given I am on zoo site
     When I click on <Link>
