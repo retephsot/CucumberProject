@@ -1,5 +1,6 @@
 Feature: Adopt an animal Scenario Hooks
 
+	@TestRoom
   Scenario: Adopt an available animal
     Given I am at the zoo site
     When I navigate to adoption
@@ -7,6 +8,7 @@ Feature: Adopt an animal Scenario Hooks
     And I populate the form
     Then There should be a confirmation message
 
+	@TestRoom
   Scenario: Adopt an available animal
     Given I am at the zoo site
     When I navigate to adoption
