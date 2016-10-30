@@ -6,7 +6,433 @@
         "before": [
           {
             "result": {
-              "duration": 8056226040,
+              "duration": 8146291569,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonPageStepDefinition.testSetUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Test Contact Page Heading",
+        "description": "",
+        "id": "test-page-heading-scenario-outline;test-contact-page-heading;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1420788446,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonPageStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2441225806,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on zoo site",
+            "match": {
+              "location": "CommonPageStepDefinition.shouldNavigateToZoo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 517571870,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on adoption_link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "adoption_link",
+                  "offset": 11
+                }
+              ],
+              "location": "CommonPageStepDefinition.clickContactLink(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 510394181,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I check I am on Adoption",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Adoption",
+                  "offset": 16
+                }
+              ],
+              "location": "CommonPageStepDefinition.verifyZooTitle(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 69225438,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I close browser",
+            "match": {
+              "location": "CommonPageStepDefinition.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@TestRoom"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5960947616,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonPageStepDefinition.testSetUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Test Contact Page Heading",
+        "description": "",
+        "id": "test-page-heading-scenario-outline;test-contact-page-heading;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 727485567,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonPageStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1762237251,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on zoo site",
+            "match": {
+              "location": "CommonPageStepDefinition.shouldNavigateToZoo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 355732338,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on about_link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "about_link",
+                  "offset": 11
+                }
+              ],
+              "location": "CommonPageStepDefinition.clickContactLink(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 540708868,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I check I am on About",
+            "match": {
+              "arguments": [
+                {
+                  "val": "About",
+                  "offset": 16
+                }
+              ],
+              "location": "CommonPageStepDefinition.verifyZooTitle(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 79637683,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I close browser",
+            "match": {
+              "location": "CommonPageStepDefinition.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@TestRoom"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6096525201,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonPageStepDefinition.testSetUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Test Contact Page Heading",
+        "description": "",
+        "id": "test-page-heading-scenario-outline;test-contact-page-heading;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 741405782,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonPageStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1336649723,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on zoo site",
+            "match": {
+              "location": "CommonPageStepDefinition.shouldNavigateToZoo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 381889599,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on contact_link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "contact_link",
+                  "offset": 11
+                }
+              ],
+              "location": "CommonPageStepDefinition.clickContactLink(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 929136551,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I check I am on Contact",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Contact",
+                  "offset": 16
+                }
+              ],
+              "location": "CommonPageStepDefinition.verifyZooTitle(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 70259150,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I close browser",
+            "match": {
+              "location": "CommonPageStepDefinition.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@TestRoom"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5936330659,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonPageStepDefinition.testSetUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Test Contact Page Heading",
+        "description": "",
+        "id": "test-page-heading-scenario-outline;test-contact-page-heading;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 856065277,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonPageStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1312481065,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on zoo site",
+            "match": {
+              "location": "CommonPageStepDefinition.shouldNavigateToZoo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 376191868,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on home_link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "home_link",
+                  "offset": 11
+                }
+              ],
+              "location": "CommonPageStepDefinition.clickContactLink(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 239805541,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I check I am on Home",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Home",
+                  "offset": 16
+                }
+              ],
+              "location": "CommonPageStepDefinition.verifyZooTitle(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 238198731,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I close browser",
+            "match": {
+              "location": "CommonPageStepDefinition.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@TestRoom"
+          }
+        ]
+      }
+    ],
+    "name": "Test Page Heading Scenario Outline",
+    "description": "",
+    "id": "test-page-heading-scenario-outline",
+    "keyword": "Feature",
+    "uri": "PageHeadingScenarioOutLine.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5927790837,
               "status": "passed"
             },
             "match": {
@@ -21,7 +447,7 @@
         "after": [
           {
             "result": {
-              "duration": 1011754264,
+              "duration": 769460097,
               "status": "passed"
             },
             "match": {
@@ -34,7 +460,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2460676257,
+              "duration": 1686546803,
               "status": "passed"
             },
             "line": 5,
@@ -46,7 +472,7 @@
           },
           {
             "result": {
-              "duration": 466997990,
+              "duration": 355728233,
               "status": "passed"
             },
             "line": 6,
@@ -58,7 +484,7 @@
           },
           {
             "result": {
-              "duration": 6521755569,
+              "duration": 6943925855,
               "status": "passed"
             },
             "line": 7,
@@ -107,7 +533,7 @@
           },
           {
             "result": {
-              "duration": 247227904,
+              "duration": 140982199,
               "status": "passed"
             },
             "line": 13,
@@ -131,5 +557,511 @@
     "id": "submit-a-valid-contact-form-use-datatable",
     "keyword": "Feature",
     "uri": "SubmitContact.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5970091737,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonPageStepDefinition.testSetUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Adopt an available animal",
+        "description": "",
+        "id": "adopt-an-animal-scenario-hooks;adopt-an-available-animal",
+        "after": [
+          {
+            "result": {
+              "duration": 732117155,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonPageStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1313747136,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at the zoo site",
+            "match": {
+              "location": "CommonPageStepDefinition.shouldNavigateToZooSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 391310006,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to adoption",
+            "match": {
+              "location": "CommonPageStepDefinition.navigateToAdoption()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2395906287,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I check for an available animal",
+            "match": {
+              "location": "CommonPageStepDefinition.checkAvailableAnimal()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7843344628,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I populate the form",
+            "match": {
+              "location": "CommonPageStepDefinition.populateForm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2075746690,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "There should be a confirmation message",
+            "match": {
+              "location": "CommonPageStepDefinition.verifyConfirmMessageAvilable()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@TestRoom"
+          }
+        ]
+      }
+    ],
+    "name": "Adopt an animal Scenario Hooks",
+    "description": "",
+    "id": "adopt-an-animal-scenario-hooks",
+    "keyword": "Feature",
+    "uri": "adoptionScenarioHook.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5950705330,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonPageStepDefinition.testSetUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Check form is validated when there are no errors",
+        "description": "",
+        "id": "to-test-contact-form-works-when-there-are-no-errors;check-form-is-validated-when-there-are-no-errors",
+        "after": [
+          {
+            "result": {
+              "duration": 777940393,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonPageStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3330745907,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on my zoo website",
+            "match": {
+              "location": "CommonPageStepDefinition.shouldGoToZooSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 436292480,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click the contact link",
+            "match": {
+              "location": "CommonPageStepDefinition.shouldClickOnContactLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3905731476,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "populate the contact form",
+            "match": {
+              "location": "CommonPageStepDefinition.shouldPopulateContactForm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 313043079,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be on the contact confirmation page",
+            "match": {
+              "location": "CommonPageStepDefinition.checkOnContactConfirmationPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@TestRoom"
+          }
+        ]
+      }
+    ],
+    "name": "To test contact form works when there are no errors",
+    "description": "",
+    "id": "to-test-contact-form-works-when-there-are-no-errors",
+    "keyword": "Feature",
+    "uri": "contactConfirmation.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6001832191,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonPageStepDefinition.testSetUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Adopt an available animal",
+        "description": "",
+        "id": "adopt-an-animal-scenario-hooks;adopt-an-available-animal",
+        "after": [
+          {
+            "result": {
+              "duration": 839005748,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonPageStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3170779208,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at the zoo site",
+            "match": {
+              "location": "CommonPageStepDefinition.shouldNavigateToZooSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 632538029,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to adoption",
+            "match": {
+              "location": "CommonPageStepDefinition.navigateToAdoption()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1781059181,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I check for an available animal",
+            "match": {
+              "location": "CommonPageStepDefinition.checkAvailableAnimal()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6293995358,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I populate the form",
+            "match": {
+              "location": "CommonPageStepDefinition.populateForm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2068106337,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "There should be a confirmation message",
+            "match": {
+              "location": "CommonPageStepDefinition.verifyConfirmMessageAvilable()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@TestRoom"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6003125767,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonPageStepDefinition.testSetUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Adopt an available animal",
+        "description": "",
+        "id": "adopt-an-animal-scenario-hooks;adopt-an-available-animal",
+        "after": [
+          {
+            "result": {
+              "duration": 770992191,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonPageStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1759533507,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am at the zoo site",
+            "match": {
+              "location": "CommonPageStepDefinition.shouldNavigateToZooSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 366488606,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I navigate to adoption",
+            "match": {
+              "location": "CommonPageStepDefinition.navigateToAdoption()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1898114112,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I check for an available animal",
+            "match": {
+              "location": "CommonPageStepDefinition.checkAvailableAnimal()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5873178586,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I populate the form",
+            "match": {
+              "location": "CommonPageStepDefinition.populateForm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2062440627,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "There should be a confirmation text",
+            "match": {
+              "location": "CommonPageStepDefinition.verifyConfirmTextAvilable()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@TestRoom"
+          }
+        ]
+      }
+    ],
+    "name": "Adopt an animal Scenario Hooks",
+    "description": "",
+    "id": "adopt-an-animal-scenario-hooks",
+    "keyword": "Feature",
+    "uri": "myFeature.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6008268873,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonAnimalSelectPageStepDefinition.testSetUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Navigate to Animal Selection page and select Simba Lion.",
+        "description": "",
+        "id": "to-test-simba-lion-can-be-selected-in-the-animal-page.;navigate-to-animal-selection-page-and-select-simba-lion.",
+        "after": [
+          {
+            "result": {
+              "duration": 702222440,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonAnimalSelectPageStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1986879495,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on Animal Select page",
+            "match": {
+              "location": "CommonAnimalSelectPageStepDefinition.navigateToAnimalSelectPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 543229516,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I select Simba the Lion",
+            "match": {
+              "location": "CommonAnimalSelectPageStepDefinition.i_select_Simba_the_Lion()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1581047030,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on the CONTINUE link",
+            "match": {
+              "location": "CommonAnimalSelectPageStepDefinition.clickCONTINUElink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 262813224,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be on the Thank you page",
+            "match": {
+              "location": "CommonAnimalSelectPageStepDefinition.verifyThankyouPageMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@AnimalSelect"
+          }
+        ]
+      }
+    ],
+    "name": "To test Simba Lion can be selected in the Animal page.",
+    "description": "",
+    "id": "to-test-simba-lion-can-be-selected-in-the-animal-page.",
+    "keyword": "Feature",
+    "uri": "selectAnimalFromAnimalSelectPage.feature"
   }
 ]

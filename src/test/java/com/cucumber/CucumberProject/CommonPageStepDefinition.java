@@ -269,7 +269,7 @@ public class CommonPageStepDefinition extends AbstractPageStepDefinition {
 		System.out.println("Hard Assertion -> 1st pagetext assertion executed.");
 
 		// setting it up to fail to see fail message in report
-		Assert.assertEquals("2nd assert failed.", expectedConfirm, "fail");
+		Assert.assertEquals("2nd assert failed.", expectedConfirm, confirmMessage);
 		System.out.println("Hard Assertion -> 2nd pagetext assertion executed.");
 
 		// wait 2 seconds
